@@ -5,7 +5,7 @@ import mongoose from "mongoose"
 const app= express()
 app.use(express.json())
 app.use(express.urlencoded())
-app.use(cors())
+
 
 
 mongoose.connect('mongodb+srv://rithik4123:rithik4123@cluster0.wcuz2pn.mongodb.net/test', { useNewUrlParser: true })
